@@ -1,9 +1,7 @@
 # Anki Server
 
-Projets pour synchroniser les cartes Anki sur un serveur.
-
-Collaborateurs:
-
-me
+Projets pour centraliser les cartes Anki
 
 - [ ] Définition Physique
+- [ ] Définition Math
+- [ ] Cours info

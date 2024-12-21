@@ -5,7 +5,7 @@
             "__type__": "Deck",
             "children": [],
             "crowdanki_uuid": "f81e0e98-bf91-11ef-8738-b9766f361f37",
-            "deck_config_uuid": "f81e0f92-bf91-11ef-8738-b9766f361f37",
+            "deck_config_uuid": "f81e3b5c-bf91-11ef-8738-b9766f361f37",
             "desc": "\nFacile\n",
             "dyn": 0,
             "extendNew": 0,
@@ -125,7 +125,7 @@
                     "__type__": "Note",
                     "fields": [
                         "Quels sont les différents types de diagrammes en Thermo ?",
-                        "Clapeyron: Représentation des points d'équilibres thermodynamique en coordonées\\((P,V_m)\\)ou \\((P,v)\\)<br>Watt: Version extensive<br><i>Pour un sys fermé ils ont la même allure (n et m cst).</i><br>Amagat:&nbsp;&nbsp;\\((PV_m,P)\\)&nbsp;ou sa version extensive<br>On trace des isothermes qd on recense les points en fonction de P et Vm à T fixée.<br>"
+                        "<span style=\"color: rgb(0, 255, 127);\">Clapeyron</span>: Représentation des points d'équilibres thermodynamique en coordonées\\((P,V_m)\\)ou \\((P,v)\\)<br><span style=\"color: rgb(0, 255, 127);\">Watt</span>: Version extensive<br><i>Pour un sys fermé ils ont la même allure (n et m cst).</i><br><span style=\"color: rgb(0, 255, 127);\">Amagat</span>:&nbsp;&nbsp;\\((PV_m,P)\\)&nbsp;ou sa version extensive<br>On trace des isothermes qd on recense les points en fonction de P et Vm à T fixée.<br>"
                     ],
                     "guid": "n1$5*|}Qcy",
                     "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
@@ -201,7 +201,7 @@
             "__type__": "Deck",
             "children": [],
             "crowdanki_uuid": "f81e2acc-bf91-11ef-8738-b9766f361f37",
-            "deck_config_uuid": "f81e2bb2-bf91-11ef-8738-b9766f361f37",
+            "deck_config_uuid": "f81e3b5c-bf91-11ef-8738-b9766f361f37",
             "desc": "",
             "dyn": 0,
             "extendNew": 0,
@@ -263,7 +263,7 @@
                     "__type__": "Note",
                     "fields": [
                         "Loi : Résistance thermique",
-                        "En <span style=\"color: rgb(0, 170, 255);\">régime permanent ou quasi stationnaire</span>:&nbsp;<br>\\(\\Phi_{1\\rightarrow2} = \\frac{T_1 - T_2}{R_{th}}\\)"
+                        "En <span style=\"color: rgb(0, 170, 255);\">régime permanent ou quasi stationnaire</span>:&nbsp;<br>⚠️ En thermo on peut faire l'approximation que c'est QS même si ce n'est pas rigoureusement le cas cf exo B.2 chapitre 3<br>Pour une <span style=\"color: rgb(0, 255, 127);\">paroi solide</span> entre un point 1 et 2:&nbsp;&nbsp;<br>\\(\\Phi_{1\\rightarrow2} = \\frac{T_1 - T_2}{R_{th}}\\)"
                     ],
                     "guid": "w8&1Mphgmm",
                     "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
@@ -308,8 +308,8 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "Def équilibre microscopique",
-                        "équilibre microscopique n'existe pas vraiment sauf 0 absolu composants tjrs en agitation -&gt; agitation thermique"
+                        "Def agitation thermique",
+                        "Pour tout système macroscopique à une température T &gt; 0, les particules sont en mouvement permanent (<u>même dans un état d'équilibre thermodynamique)</u>. =&gt; agitation thermique"
                     ],
                     "guid": "O]SFvDi_oJ",
                     "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
@@ -328,9 +328,7 @@
             "dyn": 0,
             "extendNew": 0,
             "extendRev": 0,
-            "media_files": [
-                "paste-28fd058622122a081fb123ff988f1918c4c688a1.jpg"
-            ],
+            "media_files": [],
             "name": "Transformations",
             "newLimit": null,
             "newLimitToday": null,
@@ -399,7 +397,7 @@
                     "__type__": "Note",
                     "fields": [
                         "Définition générale variable d'Etat",
-                        "<img src=\"paste-28fd058622122a081fb123ff988f1918c4c688a1.jpg\"><br>- Variable d'Etat entre 2 états d'équilibre A et B <u>ne dépend pas des détails de la transformation uniquement des états A et B.</u><br>&nbsp; &nbsp;\\(\\Delta Y = Y_f - Y_i\\)<br>- calculer une variation 2 états&nbsp;de manière plus efficace avecautre transfo où grandeurs échangées + simples à calculer."
+                        "- Variable définies par l'Etat du systeme&nbsp;indépendamment du chemin suivi<br>Variable d'état entre 2 états d'équilibre A et B <u>ne dépend pas des détails de la transformation uniquement des états A et B.</u><br>&nbsp; &nbsp;\\(\\Delta_{AB} Y = Y_B - Y_A\\)<br>- Calculer une variation 2 états&nbsp;de manière plus efficace avec autre transfo où grandeurs échangées + simples à calculer."
                     ],
                     "guid": "vN]$O6%(`$",
                     "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
@@ -518,7 +516,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "Modèle d'enthalpie&nbsp;phase condensées",
+                        "Enthalpie&nbsp;phase condensées",
                         "La <span style=\"color: rgb(0, 170, 255);\">variation de volume</span> d'une <span style=\"color: rgb(0, 170, 255);\">phase condensée</span>&nbsp;est négligeable donc:<br>\\(H = U + PV \\approx U + C^{\\text{te}} \\implies H(T) = H_0 + C_pT\\)<br>"
                     ],
                     "guid": "fZ?iw98X+L",
@@ -576,8 +574,8 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "Variation d'Enthalpie sur&nbsp;<span style=\"color: rgb(0, 170, 255);\">transfo isobare</span>&nbsp;<span style=\"color: rgb(0, 170, 255);\">sans autres travaux</span>",
-                        "Sur&nbsp;<span style=\"color: rgb(0, 170, 255);\">transfo isobare sans autres travaux</span><u>:<br></u>\\(\\Delta_{AB}H = C_p\\Delta_{AB}T = Q_{AB}\\)<u><br>Donc&nbsp;</u>\\(C_p\\)<u>&nbsp;s'interprète comme la qté de Q qu'il faut fournir à P cste pour&nbsp;</u>\\(\\uparrow\\)<u>&nbsp;la T de 1K.</u>"
+                        "Quand utilise t-on le premier principe de l'Enthalpie et que stipule-t-il?",
+                        "Sur&nbsp;<span style=\"color: rgb(0, 170, 255);\">transfo isobare sans autres travaux</span><u>:<br></u>\\(\\Delta_{AB}H = C_p\\Delta_{AB}T = Q_{(AB)}\\)<u><br>Donc&nbsp;</u>\\(C_p\\)<u>&nbsp;s'interprète comme la qté de Q qu'il faut fournir à P cste pour&nbsp;</u>\\(\\uparrow\\)<u>&nbsp;la T de 1K.</u>"
                     ],
                     "guid": "B3%h9PrSl>",
                     "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
@@ -602,6 +600,18 @@
                     "guid": "L|yn}@]XbG",
                     "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
                     "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def Grandeur de transfert (HP)",
+                        "Grandeur qui ne sont pas d'état =&gt; grandeur de transfert<br>Dépendent pas seulement instant final et initial, elles nécessitent une connaissance des détails du processus pour aller de l'état final à l'état initial"
+                    ],
+                    "guid": "s7SIU&?7UB",
+                    "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
+                    "tags": [
+                        "def-phyisique"
+                    ]
                 }
             ],
             "reviewLimit": null,
@@ -609,194 +619,8 @@
         }
     ],
     "crowdanki_uuid": "f81df5de-bf91-11ef-8738-b9766f361f37",
-    "deck_config_uuid": "f81e04b6-bf91-11ef-8738-b9766f361f37",
+    "deck_config_uuid": "f81e3b5c-bf91-11ef-8738-b9766f361f37",
     "deck_configurations": [
-        {
-            "__type__": "DeckConfig",
-            "answerAction": 0,
-            "autoplay": true,
-            "buryInterdayLearning": false,
-            "crowdanki_uuid": "f81e04b6-bf91-11ef-8738-b9766f361f37",
-            "desiredRetention": 0.9,
-            "dyn": false,
-            "easyDaysPercentages": [],
-            "fsrsParams5": [],
-            "fsrsWeights": [],
-            "ignoreRevlogsBeforeDate": "",
-            "interdayLearningMix": 0,
-            "lapse": {
-                "delays": [
-                    10.0
-                ],
-                "leechAction": 1,
-                "leechFails": 8,
-                "minInt": 1,
-                "mult": 0.0
-            },
-            "maxTaken": 20,
-            "name": "Default",
-            "new": {
-                "bury": false,
-                "delays": [
-                    1.0,
-                    10.0
-                ],
-                "initialFactor": 2500,
-                "ints": [
-                    1,
-                    4,
-                    0
-                ],
-                "order": 1,
-                "perDay": 20
-            },
-            "newGatherPriority": 0,
-            "newMix": 0,
-            "newPerDayMinimum": 0,
-            "newSortOrder": 0,
-            "questionAction": 0,
-            "replayq": true,
-            "rev": {
-                "bury": false,
-                "ease4": 1.3,
-                "hardFactor": 1.2,
-                "ivlFct": 1.0,
-                "maxIvl": 36500,
-                "perDay": 200
-            },
-            "reviewOrder": 0,
-            "secondsToShowAnswer": 0.0,
-            "secondsToShowQuestion": 0.0,
-            "sm2Retention": 0.9,
-            "stopTimerOnAnswer": false,
-            "timer": 0,
-            "waitForAudio": true,
-            "weightSearch": ""
-        },
-        {
-            "__type__": "DeckConfig",
-            "answerAction": 0,
-            "autoplay": true,
-            "buryInterdayLearning": false,
-            "crowdanki_uuid": "f81e0f92-bf91-11ef-8738-b9766f361f37",
-            "desiredRetention": 0.9,
-            "dyn": false,
-            "easyDaysPercentages": [],
-            "fsrsParams5": [],
-            "fsrsWeights": [],
-            "ignoreRevlogsBeforeDate": "",
-            "interdayLearningMix": 0,
-            "lapse": {
-                "delays": [
-                    10.0
-                ],
-                "leechAction": 1,
-                "leechFails": 8,
-                "minInt": 1,
-                "mult": 0.0
-            },
-            "maxTaken": 20,
-            "name": "Default",
-            "new": {
-                "bury": false,
-                "delays": [
-                    1.0,
-                    10.0
-                ],
-                "initialFactor": 2500,
-                "ints": [
-                    1,
-                    4,
-                    0
-                ],
-                "order": 1,
-                "perDay": 20
-            },
-            "newGatherPriority": 0,
-            "newMix": 0,
-            "newPerDayMinimum": 0,
-            "newSortOrder": 0,
-            "questionAction": 0,
-            "replayq": true,
-            "rev": {
-                "bury": false,
-                "ease4": 1.3,
-                "hardFactor": 1.2,
-                "ivlFct": 1.0,
-                "maxIvl": 36500,
-                "perDay": 200
-            },
-            "reviewOrder": 0,
-            "secondsToShowAnswer": 0.0,
-            "secondsToShowQuestion": 0.0,
-            "sm2Retention": 0.9,
-            "stopTimerOnAnswer": false,
-            "timer": 0,
-            "waitForAudio": true,
-            "weightSearch": ""
-        },
-        {
-            "__type__": "DeckConfig",
-            "answerAction": 0,
-            "autoplay": true,
-            "buryInterdayLearning": false,
-            "crowdanki_uuid": "f81e2bb2-bf91-11ef-8738-b9766f361f37",
-            "desiredRetention": 0.9,
-            "dyn": false,
-            "easyDaysPercentages": [],
-            "fsrsParams5": [],
-            "fsrsWeights": [],
-            "ignoreRevlogsBeforeDate": "",
-            "interdayLearningMix": 0,
-            "lapse": {
-                "delays": [
-                    10.0
-                ],
-                "leechAction": 1,
-                "leechFails": 8,
-                "minInt": 1,
-                "mult": 0.0
-            },
-            "maxTaken": 20,
-            "name": "Default",
-            "new": {
-                "bury": false,
-                "delays": [
-                    1.0,
-                    10.0
-                ],
-                "initialFactor": 2500,
-                "ints": [
-                    1,
-                    4,
-                    0
-                ],
-                "order": 1,
-                "perDay": 20
-            },
-            "newGatherPriority": 0,
-            "newMix": 0,
-            "newPerDayMinimum": 0,
-            "newSortOrder": 0,
-            "questionAction": 0,
-            "replayq": true,
-            "rev": {
-                "bury": false,
-                "ease4": 1.3,
-                "hardFactor": 1.2,
-                "ivlFct": 1.0,
-                "maxIvl": 36500,
-                "perDay": 200
-            },
-            "reviewOrder": 0,
-            "secondsToShowAnswer": 0.0,
-            "secondsToShowQuestion": 0.0,
-            "sm2Retention": 0.9,
-            "stopTimerOnAnswer": false,
-            "timer": 0,
-            "waitForAudio": true,
-            "weightSearch": ""
-        },
         {
             "__type__": "DeckConfig",
             "answerAction": 0,
