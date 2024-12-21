@@ -1,0 +1,943 @@
+{
+    "__type__": "Deck",
+    "children": [
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "f81e0e98-bf91-11ef-8738-b9766f361f37",
+            "deck_config_uuid": "f81e0f92-bf91-11ef-8738-b9766f361f37",
+            "desc": "\nFacile\n",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Systèmes",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Qu'est-ce qu'un système thermodynamique ?",
+                        "- Intérieur d'une surface fermée<br>- Décrit à l'aide de grandeurs à l'échelle macroscopique (paramètres d'état)"
+                    ],
+                    "guid": "G<0@a&v2#F",
+                    "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
+                    "tags": [
+                        "def-phyisique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Quels sont les paramètres d&#x27;état usuels en thermodynamique ?",
+                        "- Masse<br>- Volume<br>- Nombre de particules<br>- Quantité de matière"
+                    ],
+                    "guid": "d]dNAzCT8N",
+                    "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Quelle est la différence entre une grandeur extensive et une grandeur intensive ?",
+                        "- Extensive : valeur proportionnelle à la taille -&gt; stocke les données sur la taille du système<br>- Intensive : valeur indépendante de la taille"
+                    ],
+                    "guid": "L[jFrn6hZF",
+                    "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
+                    "tags": [
+                        "def-phyisique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Quelle est la définition de la pression ?",
+                        "Force exercée par unité de surface : \\( \\vec{F} = P \\vec{S} \\) avec \\( \\vec{S} = S \\vec{n} \\).<br>- Mesurée à l'aide d'un manomètre par rapport à la pression de référence."
+                    ],
+                    "guid": "ywY(QqrF1r",
+                    "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
+                    "tags": [
+                        "def-phyisique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Qu'énonce le principe zéro de la thermodynamique ?",
+                        "Deux corps en équilibre thermique avec un troisième même corps sont en équilibre thermique entre eux."
+                    ],
+                    "guid": "N7|T>R<*~%",
+                    "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
+                    "tags": [
+                        "Loi-Physique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Quelle est la définition expérimentale de la température ?",
+                        "- Utilisation d'un thermomètre à liquide (alcool, mercure) : tube fin contenant un liquide<br>- On met en contact le thermomètre avec un autre corps, le volume du liquide change<br>- Lorsque le volume se stabilise -&gt; équilibre thermique<br>- Cet état est lié à l'égalité d'un même paramètre entre deux corps : la température"
+                    ],
+                    "guid": "NY^>plR.Oq",
+                    "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
+                    "tags": [
+                        "def-phyisique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Pourquoi on introduit l'énergie interne et comment la définit-on?",
+                        "- Description macroscopique ne tient pas compte d'une partie de l'énergie du système: énergie des constituants microscopiques (interactions et mouvements)<br><br>- La part de l'énergie cette énérgie mécanique du système macroscopique est modélisée dans un \"réservoir\" d'énergie interne&nbsp; <br><br>-&gt;<span style=\"color: rgb(0, 170, 255);\">BUT</span> tenir compte de cette énergie sans se soucier des détails à l'échelle microscopique"
+                    ],
+                    "guid": "x=Y.&[9?8O",
+                    "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
+                    "tags": [
+                        "def-phyisique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Qu&#x27;est-ce que la capacité thermique à volume constant ?",
+                        "- Capacité thermique : à volume constant, notée \\( C_v \\), donnée par \\( C_v = \\frac{\\partial U}{\\partial T} \\big|_V \\)<br>- Relation : \\( dU = C_v dT \\)&nbsp;<br>- Grandeur extensive."
+                    ],
+                    "guid": "d8|R&Y//21",
+                    "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
+                    "tags": [
+                        "def-phyisique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Qu'est ce qu'une équation d'Etat ?",
+                        "Relation entre ses différents paramètres d'état<br>-&gt; En termo en général : lien entre 3 paramètres d'état: (P,V,T) ou (U,V,T)"
+                    ],
+                    "guid": "fOel3r/L:K",
+                    "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
+                    "tags": [
+                        "def-phyisique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Quels sont les différents types de diagrammes en Thermo ?",
+                        "Clapeyron: Représentation des points d'équilibres thermodynamique en coordonées\\((P,V_m)\\)ou \\((P,v)\\)<br>Watt: Version extensive<br><i>Pour un sys fermé ils ont la même allure (n et m cst).</i><br>Amagat:&nbsp;&nbsp;\\((PV_m,P)\\)&nbsp;ou sa version extensive<br>On trace des isothermes qd on recense les points en fonction de P et Vm à T fixée.<br>"
+                    ],
+                    "guid": "n1$5*|}Qcy",
+                    "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
+                    "tags": [
+                        "def-phyisique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Lois Gaz Parfait",
+                        "<span style=\"color: rgb(0, 170, 255);\">Relation Générale:</span><br>- PV= nRT avec R une <u>constante universelle de la physique</u> indépendante du gaz chosit cf diagramme d'Ammagat avec P-&gt;0<br><span style=\"color: rgb(0, 170, 255);\">Energie Interne d'un GP:</span><br>Ne dépend que de la température<br>-&nbsp;\\(U = C_VT\\)&nbsp;où&nbsp;\\(C_V\\)&nbsp;est la capacité thermique du gaz à volume cst<br><span style=\"color: rgb(0, 170, 255);\">Formule de la capacité thermique<br></span>\\(C_V = \\frac{nR}{\\gamma-1}\\)où&nbsp;\\(\\gamma\\)&nbsp;est le coef adiabatique du gaz<br><span style=\"color: rgb(0, 170, 255);\">Monoatomique&nbsp; &nbsp; &nbsp; &nbsp; Diatomique</span><br>\\(C_V = \\frac{3}{2}nR\\)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\\(C_V = \\frac{5}{2}nR\\)"
+                    ],
+                    "guid": "JD5j~%L5Ri",
+                    "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
+                    "tags": [
+                        "Loi-Physique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "<span style=\"color: rgb(255, 255, 255);\">Lois&nbsp;Mélange&nbsp;de&nbsp;Gaz</span>",
+                        "<span style=\"color: rgb(255, 255, 255);\">Mélanges de gaz parfait = gaz parfait<br></span>La pression partielle d'un des constituants du mélange est la pression qu'il aurait&nbsp;<u>s'il était seul à la mm T et V</u><br><span style=\"color: rgb(0, 170, 255);\">Loi de Dalton pour mélanges de Gaz parfaits (à savoir redémontrer)</span><br>\\(P_i = P \\frac{n_i}{n_{tot}}\\)"
+                    ],
+                    "guid": "k5x;}$mD/~",
+                    "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
+                    "tags": [
+                        "Loi-Physique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "<span style=\"color: rgb(255, 255, 255);\">Def&nbsp;Phases&nbsp;Condensées</span>",
+                        "- Corps solides ou liquides qui sont:<br>&nbsp; &nbsp; &nbsp; peu compressibles (P a peu d'influence sur&nbsp;\\(v\\))<br>&nbsp; &nbsp; &nbsp; peu dillatables (T a peu d'influence sur&nbsp;\\(v\\))"
+                    ],
+                    "guid": "Q5#q~{q*<A",
+                    "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
+                    "tags": [
+                        "def-phyisique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "<span style=\"color: rgb(255, 255, 255);\">Lois&nbsp;Phases&nbsp;condensées</span>",
+                        "<span style=\"color: rgb(255, 255, 255);\">&nbsp;</span><font color=\"#55aaff\">Pour&nbsp;une&nbsp;phase&nbsp;condensée&nbsp;</font><u style=\"\"><font color=\"#55aaff\">incompressible&nbsp;et&nbsp;indilatable<br></font></u>\\(V_m(P,T) = V_{m,0}= cste\\)<span style=\"color: rgb(255, 255, 255);\">&nbsp;dépendant du corps considéré<br></span>\\(v(P,T) = v_{0}= cste\\)&nbsp;dépendant du corps considéré<br><font color=\"#55aaff\">Energie Interne&nbsp;</font><font color=\"#55aaff\">phase&nbsp;condensée&nbsp;</font><u><font color=\"#55aaff\">incompressible&nbsp;et&nbsp;indilatable<br></font></u>\\(U(T) = U_0 + C_v(T-T_0)\\)<br>\\(\\Delta_{AB} U = C_v\\Delta_{AB}T\\)<u><font color=\"#55aaff\"><br></font></u>"
+                    ],
+                    "guid": "K?y1VNoP/H",
+                    "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
+                    "tags": [
+                        "Loi-Physique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def Gaz Parfait",
+                        "Un gaz est parfait ssi:<br>Les molécules ou atomes (= constituants) qui le composent:<br>- interragissent pas entre eux<br>- ont un volume négligeable devant le volume total du gaz"
+                    ],
+                    "guid": "y}OU(Q^kMa",
+                    "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
+                    "tags": [
+                        "def-phyisique"
+                    ]
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "f81e2acc-bf91-11ef-8738-b9766f361f37",
+            "deck_config_uuid": "f81e2bb2-bf91-11ef-8738-b9766f361f37",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Transferts Thermiques",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def Conduction Thermique",
+                        "Phénomène entre 2 solides de T différente, =&gt; transfert thermique du corps le plus chaud au plus faible: conduction thermique"
+                    ],
+                    "guid": "yd;h:I:-[t",
+                    "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
+                    "tags": [
+                        "def-phyisique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def Convection thermique",
+                        "Transfert thermique via le transport de matière macroscopique d'un sys fluide"
+                    ],
+                    "guid": "f;e:@2u-S%",
+                    "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
+                    "tags": [
+                        "def-phyisique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def Rayonnement Thermique, qu'est ce qui est intéréssant avec ce phénomène ?",
+                        "Transport d'énergie par les ondes éléctromagnétiques<br>PS: peut avoir lieu dans le vide"
+                    ],
+                    "guid": "h+)MoOSg_h",
+                    "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
+                    "tags": [
+                        "def-phyisique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def Flux Thermique",
+                        "Avec S une surface orientée,&nbsp;\\(\\delta Q\\)&nbsp;la <u><span style=\"color: rgb(255, 255, 255);\">qté algébrique de transfert thermique</span></u> qui traverse S pdt&nbsp;\\(\\text{d}t\\)&nbsp;alors:<br><span style=\"color: rgb(0, 170, 255);\">Flux thermique:</span><br>\\(\\delta Q = \\Phi \\text{d}t\\)<br>Il est prop à la surface S et on def le&nbsp;<span style=\"color: rgb(0, 170, 255);\">flux surfacique:&nbsp;</span>\\(\\varphi_s = \\frac{\\Phi}{S}\\)"
+                    ],
+                    "guid": "w:<wT2>P%c",
+                    "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
+                    "tags": [
+                        "def-phyisique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Loi : Résistance thermique",
+                        "En <span style=\"color: rgb(0, 170, 255);\">régime permanent ou quasi stationnaire</span>:&nbsp;<br>\\(\\Phi_{1\\rightarrow2} = \\frac{T_1 - T_2}{R_{th}}\\)"
+                    ],
+                    "guid": "w8&1Mphgmm",
+                    "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
+                    "tags": [
+                        "Loi-Physique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Donnée l'expression de la résistance thermique",
+                        "<span style=\"color: rgb(0, 170, 255);\"><u>Pour une paroi parallélipipédique:<br></u></span><br>\\(R_{th} = \\frac{e}{\\lambda S}\\)&nbsp;avec : <br>- e = épaisseur S la surface du parallépipède<br>-&nbsp;\\(\\lambda\\)&nbsp;conductivité thermique du matériau en&nbsp;\\(W \\times K^{-1} \\times \\text{m}^{-1}\\)"
+                    ],
+                    "guid": "g5$1U=NMs$",
+                    "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Loi phénoménologique de Newton",
+                        "Pour un solide (s) au contact d'une fluide (f) au travers une surface S, le flux thermique de s -&gt; f:<br>\\(\\Phi_{\\text{s}\\rightarrow \\text{f}}= hS(T_\\text{s}-T_\\text{f})\\)&nbsp;où&nbsp;\\(h\\)&nbsp;est le coef de transfert convectif dépend de: <br>- nature du fluide &amp; solide,<br>- vitesse d'écoulement <br>- la surface d'échange<br>Résistance conducto convective:&nbsp;\\(R_{cc} = \\frac{1}{hs}\\)&nbsp;<br>⚠️ Cette résistance est différente de la résistance thermique du matériau"
+                    ],
+                    "guid": "scwae>yB~O",
+                    "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
+                    "tags": [
+                        "Loi-Physique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Flux surfacique émis par un corps",
+                        "Tout corps à l'équilibre thermodynamique émet une onde électromagnétique;<br>Flux surfacique émis:&nbsp;\\(\\varphi_S = \\sigma T^4\\)&nbsp;avec&nbsp;\\(\\sigma\\)&nbsp;la constante de Stephan- Boltzmann&nbsp;"
+                    ],
+                    "guid": "L7%7kS(pGV",
+                    "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
+                    "tags": [
+                        "Loi-Physique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def équilibre microscopique",
+                        "équilibre microscopique n'existe pas vraiment sauf 0 absolu composants tjrs en agitation -&gt; agitation thermique"
+                    ],
+                    "guid": "O]SFvDi_oJ",
+                    "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
+                    "tags": []
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "f81e3aa8-bf91-11ef-8738-b9766f361f37",
+            "deck_config_uuid": "f81e3b5c-bf91-11ef-8738-b9766f361f37",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [
+                "paste-28fd058622122a081fb123ff988f1918c4c688a1.jpg"
+            ],
+            "name": "Transformations",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def équilibre macroscopique&nbsp;",
+                        "Système thermodynamique livré à lui mm ds des conditions extérieures constantes est à l'équilibre qd ses paramètres d'état ne varients plus et sont uniformes.<br>(T, V, P,...) sont constants."
+                    ],
+                    "guid": "I.OLZ$tT{#",
+                    "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
+                    "tags": [
+                        "def-phyisique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Distinguer l'équilibre thermodynamique de l'état stationnaire",
+                        "<span style=\"color: rgb(0, 170, 255);\">Eq thermo:</span><br>- Les paramètres thermo sont constants<br>- tous les transferts avec l'extérieur sont algébriquement nuls<br><span style=\"color: rgb(0, 170, 255);\">Etat Stationnaire:</span><br>- Les paramètres thermo sont constants<br>- Flux macroscopique qui assure cet équilibre, les transferts macroscopiques se compensent"
+                    ],
+                    "guid": "ChpUu7!H-u",
+                    "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
+                    "tags": [
+                        "def-phyisique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Distinction entre eq mécanique et thermique et intérêt",
+                        "<u>Se sont 2 sous équilibres indépendants</u><br><span style=\"color: rgb(0, 170, 255);\">Eq mécanique:</span><br>- Parois du système ne sont plus en déplacement <u>(plus d'</u>\\(E_c\\)<u>, plus de variation de position)</u>&nbsp;=&gt; PFD les forces exercés sur les parois se compensent<br>- (ph rapide&nbsp; &gt;ms)<br><span style=\"color: rgb(0, 170, 255);\">Eq thermique:<br></span>- Absence de transfert thermique à travers les parois <br>- (ph lent&nbsp; &gt;<span style=\"font-size: 16.6667px;\">mins)</span><br><br>Chacun de ces équilibres apporte une équation supplémentaire au système d'équations"
+                    ],
+                    "guid": "Gmqr<z|:n^",
+                    "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
+                    "tags": [
+                        "def-phyisique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def Transfo Quasi statique",
+                        "A chaque étape de la transfo il y a une situation d'équilibre avec le sys et le milieu extérieur <br>⚠️&nbsp;<span style=\"color: rgb(255, 0, 0);\">É</span><span style=\"color: rgb(255, 0, 0);\">quilibre thermique et mécanique</span><br>- ex du grain de sable ajouté sur une balance toutes les 10s&nbsp;"
+                    ],
+                    "guid": "w`7mSmTipN",
+                    "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
+                    "tags": [
+                        "def-phyisique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def transfo réversible et son sens intuitif",
+                        "Transformation quasistatique invariante par renversement de temps.<br>Il faut que de l'état final du syst on puisse revenir à l'état initial<br>sens intuitif: imaginer le film à l'envers"
+                    ],
+                    "guid": "K2e+e*MH0z",
+                    "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
+                    "tags": [
+                        "def-phyisique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Définition générale variable d'Etat",
+                        "<img src=\"paste-28fd058622122a081fb123ff988f1918c4c688a1.jpg\"><br>- Variable d'Etat entre 2 états d'équilibre A et B <u>ne dépend pas des détails de la transformation uniquement des états A et B.</u><br>&nbsp; &nbsp;\\(\\Delta Y = Y_f - Y_i\\)<br>- calculer une variation 2 états&nbsp;de manière plus efficace avecautre transfo où grandeurs échangées + simples à calculer."
+                    ],
+                    "guid": "vN]$O6%(`$",
+                    "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
+                    "tags": [
+                        "def-phyisique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def transfo isochore, isotherme et isobare&nbsp;",
+                        "Pour le système étudié cela revient à:<br><span style=\"color: rgb(0, 170, 255);\">isochore:</span><br>-&nbsp;\\(v\\)&nbsp;cst donc pour sys fermé :&nbsp;\\(V\\)&nbsp;cst<br><span style=\"color: rgb(0, 170, 255);\">isotherme:</span><br>- T cst donc définit à chaque instant<br><span style=\"color: rgb(0, 170, 255);\">isobare:&nbsp;</span><br>- P cst pareil (ds la pratique : isobare = monbare + QS)&nbsp;"
+                    ],
+                    "guid": "vFe@xCG9+E",
+                    "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
+                    "tags": [
+                        "def-phyisique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def transfo monotherme, monobare, thermostat et barostat",
+                        "<span style=\"color: rgb(0, 170, 255);\">thermostat</span><br>- milieu ext (réservoir d'énergie interne) capable d'échanger une qté arbitrairement grande de chaleur sans changer sa température<br><span style=\"color: rgb(0, 170, 255);\">monotherme</span><br>- transfo pdt laquelle le sys est en <u>contact permanent</u> avec un thermostat<br>- n'implique pas d'eq thermique à priori sauf à l'état final<br><span style=\"color: rgb(0, 170, 255);\">barostat<br></span>- réservoir de volume, sys qui peut échanger (à traver une paroi mobile) une qté arbitrairement grande de V sans faire varier sa P<br>&nbsp; (ex: océan, atmosphère)<br><span style=\"color: rgb(0, 170, 255);\">monobare</span><br>- transfo pdt laquelle le sys est en&nbsp;<u>contact permanent</u>&nbsp;avec un barostat<br>"
+                    ],
+                    "guid": "s~T~kBu{k[",
+                    "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
+                    "tags": [
+                        "def-phyisique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "def Transfo adiabatique et dans quels cas se produit-elle ?",
+                        "<span style=\"color: rgb(0, 170, 255);\">adiabatique</span><br>- transfo pdt laquelle&nbsp;\\(\\delta Q = 0 \\forall t \\implies\\)\\(Q_{(AB)} = 0\\)<br>- présente si: -&gt; parois systèmes sont athermanes (= calorifugées ne laissent pas passer la chaleur)<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -&gt; transfo brutale&nbsp;\\(Q_{(AB)}\\)&nbsp;n'a pas le tps de se produire"
+                    ],
+                    "guid": "A;>D52k>7?",
+                    "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
+                    "tags": [
+                        "def-phyisique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Qu'est ce qu'une compression, une détente ?",
+                        "Lors d'une compression la pression du système augmente inverse d'une détente."
+                    ],
+                    "guid": "zEn<{$}oQT",
+                    "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
+                    "tags": [
+                        "def-phyisique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Qu'est ce qu'un vérin définition la plus simple possible",
+                        "Tube cylindrique fermé par un piston mobile"
+                    ],
+                    "guid": "rZP!%~t?s^",
+                    "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
+                    "tags": [
+                        "def-phyisique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Loi de Laplace:",
+                        "4 hypothèses:<br>- Une transformation:&nbsp;<span style=\"color: rgb(0, 170, 255);\">Compression / Détente</span> - <span style=\"color: rgb(0, 170, 255);\">Adiabatique</span>&nbsp;- <span style=\"color: rgb(0, 170, 255);\">Reversible</span>&nbsp; - <span style=\"color: rgb(0, 170, 255);\">GP</span><br>Pendant la durée de la transformation&nbsp;\\(PV^\\gamma=P_AV_A^\\gamma\\)&nbsp;en particulier&nbsp;\\(P_BV_B^\\gamma=P_AV_A^\\gamma\\)"
+                    ],
+                    "guid": "Pf=%1Cs:B=",
+                    "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
+                    "tags": [
+                        "Loi-Physique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def Enthalpie",
+                        "L'entalpie d'un sys :&nbsp;\\(H = U + PV\\)"
+                    ],
+                    "guid": "pc3gGDQUSl",
+                    "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
+                    "tags": [
+                        "def-phyisique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Premier principe de l'Enthalpie",
+                        "Si transfo&nbsp;<span style=\"color: rgb(0, 170, 255);\">(isobare)&nbsp;</span>ou&nbsp;<span style=\"color: rgb(0, 170, 255);\">(monobare +</span>&nbsp;<span style=\"color: rgb(0, 170, 255);\">eq mécanique</span>&nbsp;<span style=\"color: rgb(0, 170, 255);\">avec le barostat</span>&nbsp;<span style=\"color: rgb(0, 170, 255);\">aux états initiaux final et final)</span>&nbsp;alors avec 1er principe:<br><br>\\(\\Delta_{AB} H = W_{AB}^{\\text{autre}} + Q_{AB}\\)&nbsp;travail autre que les forces de pression&nbsp;<br><br><span style=\"color: rgb(0, 255, 127);\"><u>1er principe</u>&nbsp;</span>\\(\\implies\\)\\(\\Delta_{AB} U = W_{(AB)}^{\\text{autre}} + W_{(AB)}^{\\text{press}} + Q_{(AB)}\\)<br><span style=\"color: rgb(0, 255, 127);\"><u>Transfo monobare</u></span>\\(\\implies\\)&nbsp;\\(W_{(AB)}=\\int P_{ext} dV = -P_{ext}(V_B-V_A)\\)<br><br>\\(\\Delta_{AB}(U + PV) = W_{AB}^{\\text{autre}} + Q_{AB}\\)<br><br>\\(\\Delta_{AB} H = W_{AB}^{\\text{autre}} + Q_{AB}\\)&nbsp;cqfd"
+                    ],
+                    "guid": "K./d^AbX}E",
+                    "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
+                    "tags": [
+                        "Loi-Physique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Capacité thermique à Pression Constante",
+                        "- À pression cst:&nbsp;\\( C_p = \\frac{\\partial H}{\\partial T} \\big|_P \\)<br>"
+                    ],
+                    "guid": "3w!hoSa$b",
+                    "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
+                    "tags": [
+                        "def-phyisique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Modèle d'enthalpie&nbsp;phase condensées",
+                        "La <span style=\"color: rgb(0, 170, 255);\">variation de volume</span> d'une <span style=\"color: rgb(0, 170, 255);\">phase condensée</span>&nbsp;est négligeable donc:<br>\\(H = U + PV \\approx U + C^{\\text{te}} \\implies H(T) = H_0 + C_pT\\)<br>"
+                    ],
+                    "guid": "fZ?iw98X+L",
+                    "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
+                    "tags": [
+                        "Loi-Physique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Relation GP et Enthalpie",
+                        "\\(H=U+PV=C_{V}T+nRT=n\\left(C_{\\upsilon,m}+R\\right)T\\)"
+                    ],
+                    "guid": "k&Q?t;.1~`",
+                    "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
+                    "tags": [
+                        "Loi-Physique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Relation de Mayer",
+                        "Pour un <span style=\"color: rgb(0, 170, 255);\">gaz parfait</span> : il existe un lien entre la capacité thermique à V cst et capacité thermique&nbsp;à P cst<br>&nbsp;\\(C_P = C_V+ nR \\quad \\text {et } \\quad C_{P,m} = C_{V,m} + R\\)"
+                    ],
+                    "guid": "jJPgp7W$/H",
+                    "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
+                    "tags": [
+                        "Loi-Physique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Comment retrouver l'expression générale de l'\\(U\\)&nbsp;et de l'\\(H\\) pour un gaz parfait?",
+                        "A l'aide des <span style=\"color: rgb(0, 170, 255);\">loi de Mayer</span>:&nbsp;\\(C_P = C_V + nR\\)<br>Def <span style=\"color: rgb(0, 170, 255);\">coef adiabatique</span>:&nbsp;\\(\\gamma = \\frac{C_P}{C_V}\\)<br>Def Energie Interne et Enthalpie:&nbsp;\\(\\Delta_{AB}U = C_V T\\)<br>\\(\\begin{aligned}\n&amp;\\begin{cases}\nC_P = C_V + nR, \\\\\n\\gamma = \\frac{C_P}{C_V}\n\\end{cases}\n\\quad \\Rightarrow \\quad\n\\begin{cases}\nC_P = \\gamma C_V, \\\\\n\\gamma C_V = C_V + nR\n\\end{cases} \\\\\n&amp;\\quad \\Rightarrow \\quad\n\\boxed{U = \\frac{1}{\\gamma - 1} nRT \\quad \\text{et} \\quad H = \\frac{\\gamma}{\\gamma - 1} nRT}.\n\\end{aligned}\\)"
+                    ],
+                    "guid": "Pv8;<#!0TA",
+                    "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Qu'est ce que la calorimétrie ?&nbsp;",
+                        "-&gt; Etude des capacités thermiques<br><span style=\"color: rgb(0, 170, 255);\">Calorimètres</span>:&nbsp;<br>- récipient calorifugé avec de l'eau<br>- thermomètre<br>- petit trou pour homogénéiser&nbsp;\\(P_{ext}  \\)&nbsp;et&nbsp;\\( P_{int} \\)<br>- agitateur pour homogénéiser la température du contenu<br>( parfois + résistance électrique)"
+                    ],
+                    "guid": "cq`6L;>Vkw",
+                    "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
+                    "tags": [
+                        "def-phyisique"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Variation d'Enthalpie sur&nbsp;<span style=\"color: rgb(0, 170, 255);\">transfo isobare</span>&nbsp;<span style=\"color: rgb(0, 170, 255);\">sans autres travaux</span>",
+                        "Sur&nbsp;<span style=\"color: rgb(0, 170, 255);\">transfo isobare sans autres travaux</span><u>:<br></u>\\(\\Delta_{AB}H = C_p\\Delta_{AB}T = Q_{AB}\\)<u><br>Donc&nbsp;</u>\\(C_p\\)<u>&nbsp;s'interprète comme la qté de Q qu'il faut fournir à P cste pour&nbsp;</u>\\(\\uparrow\\)<u>&nbsp;la T de 1K.</u>"
+                    ],
+                    "guid": "B3%h9PrSl>",
+                    "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Que déduire du modèle d'Enthalpie pour les phases condensées",
+                        "\\(\\begin{aligned}\n\\Delta H &amp;\\simeq \\Delta U, \\\\\n&amp;\\Rightarrow C_p \\simeq C_v \\quad \\text{et} \\quad \\gamma \\simeq 1, \\\\\n\n\\Rightarrow&amp;\\Delta U = mc \\Delta T = \\Delta H .\n\\end{aligned}\\)"
+                    ],
+                    "guid": "ds_vI(bg`d",
+                    "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Def thermalisation",
+                        "Phénomène physique qui consiste à amener un système vers un équilibre thermique"
+                    ],
+                    "guid": "L|yn}@]XbG",
+                    "note_model_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
+                    "tags": []
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        }
+    ],
+    "crowdanki_uuid": "f81df5de-bf91-11ef-8738-b9766f361f37",
+    "deck_config_uuid": "f81e04b6-bf91-11ef-8738-b9766f361f37",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "answerAction": 0,
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "f81e04b6-bf91-11ef-8738-b9766f361f37",
+            "desiredRetention": 0.9,
+            "dyn": false,
+            "easyDaysPercentages": [],
+            "fsrsParams5": [],
+            "fsrsWeights": [],
+            "ignoreRevlogsBeforeDate": "",
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 20,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "questionAction": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "secondsToShowAnswer": 0.0,
+            "secondsToShowQuestion": 0.0,
+            "sm2Retention": 0.9,
+            "stopTimerOnAnswer": false,
+            "timer": 0,
+            "waitForAudio": true,
+            "weightSearch": ""
+        },
+        {
+            "__type__": "DeckConfig",
+            "answerAction": 0,
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "f81e0f92-bf91-11ef-8738-b9766f361f37",
+            "desiredRetention": 0.9,
+            "dyn": false,
+            "easyDaysPercentages": [],
+            "fsrsParams5": [],
+            "fsrsWeights": [],
+            "ignoreRevlogsBeforeDate": "",
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 20,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "questionAction": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "secondsToShowAnswer": 0.0,
+            "secondsToShowQuestion": 0.0,
+            "sm2Retention": 0.9,
+            "stopTimerOnAnswer": false,
+            "timer": 0,
+            "waitForAudio": true,
+            "weightSearch": ""
+        },
+        {
+            "__type__": "DeckConfig",
+            "answerAction": 0,
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "f81e2bb2-bf91-11ef-8738-b9766f361f37",
+            "desiredRetention": 0.9,
+            "dyn": false,
+            "easyDaysPercentages": [],
+            "fsrsParams5": [],
+            "fsrsWeights": [],
+            "ignoreRevlogsBeforeDate": "",
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 20,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "questionAction": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "secondsToShowAnswer": 0.0,
+            "secondsToShowQuestion": 0.0,
+            "sm2Retention": 0.9,
+            "stopTimerOnAnswer": false,
+            "timer": 0,
+            "waitForAudio": true,
+            "weightSearch": ""
+        },
+        {
+            "__type__": "DeckConfig",
+            "answerAction": 0,
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "f81e3b5c-bf91-11ef-8738-b9766f361f37",
+            "desiredRetention": 0.9,
+            "dyn": false,
+            "easyDaysPercentages": [],
+            "fsrsParams5": [],
+            "fsrsWeights": [],
+            "ignoreRevlogsBeforeDate": "",
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 20,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "questionAction": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "secondsToShowAnswer": 0.0,
+            "secondsToShowQuestion": 0.0,
+            "sm2Retention": 0.9,
+            "stopTimerOnAnswer": false,
+            "timer": 0,
+            "waitForAudio": true,
+            "weightSearch": ""
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [],
+    "name": "Physique::Thermodynamique",
+    "newLimit": null,
+    "newLimitToday": null,
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "f81e1744-bf91-11ef-8738-b9766f361f37",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 5737075179993722645,
+                    "name": "Front",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": -7973131824426122568,
+                    "name": "Back",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic",
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": -240291393528649418,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [],
+    "reviewLimit": null,
+    "reviewLimitToday": null
+}
